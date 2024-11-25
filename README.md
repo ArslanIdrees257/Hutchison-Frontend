@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dogs And Origin
 
-## Getting Started
+Dogs And Origin is a frontend web application built with Next.js, Tailwind CSS, and JavaScript. The app provides users with information about dog breeds and their origins. It allows users to view, add, edit, and manage dog-related data, while also offering pages for blogs, donations, and company information.
 
-First, run the development server:
+## Features
 
-```bash
+- *Blog*: A section for publishing articles and updates.
+- *Donation Page*: Displays a donation form (currently not live) for supporting guide dogs.
+- *About Us*: Highlights the company’s mission and vision.
+- *Dog List*:
+  - Displays a list of dog breeds and their origins.
+  - Allows users to add new dog breeds and their origins.
+  - Provides editing functionality for existing data.
+  - Delete any existing data
+
+---
+
+## Tech Stack
+
+- *Framework*: [Next.js](https://nextjs.org/) (React-based)
+- *Styling*: [Tailwind CSS](https://tailwindcss.com/)
+- *Language*: JavaScript
+- *Deployment*: Hosted on [Vercel](https://vercel.com/)
+
+---
+
+## Pages Overview
+
+| *Page*     | *Description*                                                                             |
+|--------------|---------------------------------------------------------------------------------------------|
+| *Blog*     | A blog section for articles, news, and updates about dogs and their origins.               |
+| *Donation* | A donation page (frontend only) for supporting guide dogs, showcasing a donation form.      |
+| *About Us* | Describes the mission and vision of the organization, along with key company information.   |
+| *Dog List* | Displays a list of dogs and their origins, allowing users to add new entries or edit existing ones and delete any. |
+
+---
+
+## Prerequisites
+
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+---
+
+## Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ArslanIdrees257/Hutchison-Frontend.git
+
+	2.	Install dependencies:
+
+npm install
+
+
+	3.	Change the baseURL in the app/api/api.js to your API URL
+ Code for API is at https://github.com/ArslanIdrees257/Hutchison.git you can clone it by using the following command:<br/>
+ git clone https://github.com/ArslanIdrees257/Hutchison.git<br/>
+ Follow the README.md file for more information about API.
+
+
+	4.	Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+	5.	Open the app in your browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deploying to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+	1.	Push your code to a GitHub repository.
+	2.	Go to Vercel and log in.
+	3.	Import the repository and set the Root Directory to /.
+	4.	Click Deploy and wait for the build process to complete.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Your application will be live at:
 
-## Deploy on Vercel
+https://<your-project-name>.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dog List Page
+
+	•	View Dogs: Displays a list of dog breeds and their origins.
+	•	Add Dog: Use the form to add a new dog breed and its origin.
+	•	Edit Dog: Modify existing dog details directly from the list.
+	•	Delete Dog: Delete existing dog directly from the list.
+
+Blog Page
+
+	•	A dedicated space for informative blogs related to dogs and their care.
+
+Donation Page
+
+	•	Note: The page contains a static form and is not currently configured to process payments.
+
+About Us
+
+	•	Learn more about the organization’s mission and vision.
+
+Tech Highlights
+
+	•	Tailwind CSS:
+	•	Provides a responsive and modern design.
+	•	Simplifies styling using utility-first classes.
+	•	Next.js:
+	•	Handles server-side rendering for better SEO and performance.
+	•	Optimized routing for fast navigation.
+	•	Integration with Backend:
+	•	The app communicates with a RESTful API (DogsAndOriginAPI) for managing dog data.
+
+
+Contact
+
+For questions or support, contact:
+	•	Name: Muhammad Arslan Idrees
+	•	Email: arslanidrees257@gmail.com
+	•	GitHub: ArslanIdrees257
